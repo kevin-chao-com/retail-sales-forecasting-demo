@@ -3,6 +3,7 @@
 ## 📘 Project Overview
 
 A concise, end-to-end demonstration of **retail sales forecasting** using **Python**.  
+
 This project illustrates a practical workflow for analyzing historical retail data, fitting **linear regression** and **seasonal decomposition** models, and generating interpretable forecasts for future periods (**2025–2026**).
 
 It is designed as a lightweight, interpretable template for real-world **demand prediction** and **trend analysis** tasks.
