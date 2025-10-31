@@ -44,18 +44,18 @@ It is designed as a lightweight, interpretable template for real-world **demand 
 Illustrates historical and forecasted sales with both linear and seasonal fits.  
 Highlights the 2020 break point and forecast extension through 2026.
 
-<img src="figures/predictive_trend.png" alt="Predictive Trend" width="800">
+<img src="figures/predictive_trend.png" alt="Predictive Trend" width="760">
 
 
 **2. Yearly and December Sales Comparison**  
 Displays total yearly sales and December-only sales (historical vs. forecast) in side-by-side bar plots.
 
-<img src="figures/yearly_december_bars.png" alt="Predictive Trend" width="400">
+<img src="figures/yearly_december_bars.png" alt="Predictive Trend" width="480">
 
 **Figure 3. Sales Volatility by Month**  
 Shows month-to-month variability in sales, highlighting stable and high-fluctuation periods that help evaluate forecast confidence.  
 
-<img src="figures/sales_volatility_by_month.png" alt="Predictive Trend" width="400">
+<img src="figures/sales_volatility_by_month.png" alt="Predictive Trend" width="480">
 
 ---
 
