@@ -75,7 +75,7 @@ Shows month-to-month variability in sales, highlighting stable and high-fluctuat
 - Sales growth accelerated noticeably after **February 2020**, suggesting a possible **remodeling or capacity increase inferred from the data**.  
 - Forecasts indicate continued moderate growth through **2026**, with strong **December seasonality** each year.  
 - Post-2020 model results provide a more accurate view of future performance than models trained on the full pre-2020 dataset.  
-- The approach can be generalized to other retail datasets w
+- The approach can be generalized to other retail datasets.
 
 ---
 
