@@ -52,7 +52,18 @@ Displays total yearly sales and December-only sales (historical vs. forecast) in
 
 <img src="figures/yearly_december_bars.png" alt="Predictive Trend" width="480">
 
-**Figure 3. Sales Volatility by Month**  
+
+## 📈 Key Quantitative Insights
+
+From the statistical analysis and volatility study:
+
+- **Average monthly sales** across the entire period were around **110 units**, with moderate variability (CV ≈ 0.59).  
+- **Historical performance (pre-2020)** showed an average of roughly **89 units per month**, indicating steady but limited growth.  
+- **Forecasted performance (2025–2026)** rises sharply to about **198 units per month**, with lower volatility — suggesting a more stable growth trend ahead.  
+- After the **February 2020 remodel**, the post-2020 period reached an average of **~149 units per month**, representing an estimated **+38-unit lift** compared with the long-term average.  
+- Overall, the remodel period marks a clear structural improvement, with higher average sales and reduced relative fluctuation.
+
+**Sales Volatility by Month**  
 Shows month-to-month variability in sales, highlighting stable and high-fluctuation periods that help evaluate forecast confidence.  
 
 <img src="figures/sales_volatility_by_month.png" alt="Predictive Trend" width="480">
