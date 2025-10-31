@@ -50,7 +50,7 @@ Highlights the 2020 break point and forecast extension through 2026.
 **2. Yearly and December Sales Comparison**  
 Displays total yearly sales and December-only sales (historical vs. forecast) in side-by-side bar plots.
 
-<img src="figures/yearly_december_bars.png" alt="Predictive Trend" width="480">
+<img src="figures/yearly_december_bars.png" alt="Predictive Trend" width="600">
 
 
 ## 📈 Key Quantitative Insights
@@ -66,7 +66,7 @@ From the statistical analysis and volatility study:
 **Sales Volatility by Month**  
 Shows month-to-month variability in sales, highlighting stable and high-fluctuation periods that help evaluate forecast confidence.  
 
-<img src="figures/sales_volatility_by_month.png" alt="Predictive Trend" width="480">
+<img src="figures/sales_volatility_by_month.png" alt="Predictive Trend" width="600">
 
 ---
 
