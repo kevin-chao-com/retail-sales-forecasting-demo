@@ -27,9 +27,8 @@ It is designed as a lightweight, interpretable template for real-world **demand 
 - Split the data into **pre-** and **post-break** segments to capture distinct growth patterns.
 
 ### **Step 4 – Forecast Generation**
-- Train forecasting models (Linear Regression and Neural Network) using data from **2020-Feb to 2024-Dec**.  
+- Train forecasting models (linear regression and seasonal decomposition) using data from **2020-Feb to 2024-Dec**.  
 - Generate **iterative multi-period forecasts** through **December 2026**.
-- Compare predictive performance between full-data vs. post-remodel models.
 
 ### **Step 5 – Statistical Sales Summary**
 - Compute **monthly and yearly sales growth rates**.
@@ -45,23 +44,27 @@ It is designed as a lightweight, interpretable template for real-world **demand 
 Illustrates historical and forecasted sales with both linear and seasonal fits.  
 Highlights the 2020 break point and forecast extension through 2026.
 
-<img src="figures/predictive_trend.png" alt="Predictive Trend" width="600">
+<img src="figures/predictive_trend.png" alt="Predictive Trend" width="800">
 
 
 **2. Yearly and December Sales Comparison**  
 Displays total yearly sales and December-only sales (historical vs. forecast) in side-by-side bar plots.
 
-<img src="figures/yearly_december_bars.png" alt="Predictive Trend" width="600">
+<img src="figures/yearly_december_bars.png" alt="Predictive Trend" width="400">
 
+**Figure 3. Sales Volatility by Month**  
+Shows month-to-month variability in sales, highlighting stable and high-fluctuation periods that help evaluate forecast confidence.  
+
+<img src="figures/sales_volatility_by_month.png" alt="Predictive Trend" width="400">
 
 ---
 
 ## 🧠 Insights and Conclusions
 
-- Sales growth accelerated significantly after **February 2020**, consistent with store remodeling or capacity increase.  
+- Sales growth accelerated noticeably after **February 2020**, suggesting a possible **remodeling or capacity increase inferred from the data**.  
 - Forecasts indicate continued moderate growth through **2026**, with strong **December seasonality** each year.  
-- Post-remodel model results better reflect future performance than using the full pre-2020 data.  
-- The approach can be generalized to other retail datasets with minimal modification.
+- Post-2020 model results provide a more accurate view of future performance than models trained on the full pre-2020 dataset.  
+- The approach can be generalized to other retail datasets w
 
 ---
 
