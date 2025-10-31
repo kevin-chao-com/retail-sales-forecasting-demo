@@ -43,12 +43,14 @@ It is designed as a **lightweight, interpretable template** for real-world **dem
 Illustrates historical and forecasted sales with both linear and seasonal fits.  
 Highlights the 2020 break point and forecast extension through 2026.
 
-*(Insert Figure 1: Overall Predictive Trend)*
+<img src="figures/predictive_trend.png" alt="Predictive Trend" width="600">
+
 
 **2. Yearly and December Sales Comparison**  
 Displays total yearly sales and December-only sales (historical vs. forecast) in side-by-side bar plots.
 
-*(Insert Figure 2: Yearly and December Sales Bar Plots)*
+<img src="figures/yearly_december_bars.png" alt="Predictive Trend" width="600">
+
 
 ---
 
