@@ -10,31 +10,12 @@ It is designed as a lightweight, interpretable template for real-world **demand 
 
 ---
 
-## ⚙️ Workflow Summary
+## 🧠 Insights and Conclusions
 
-### **Step 1 – Load Raw Sales Data**
-- Load the CSV file containing historical monthly sales.
-- Review dataset structure and basic statistics.
-- Visualize the raw sales trend over time.
-
-### **Step 2 – Data Pre-Processing**
-- Remove months with zero or outlier sales values.  
-- Define **September 2016** as the starting point of the series, assuming **December** represents the annual peak month.
-- Identify a clear structural jump in sales around **February 2020**, likely corresponding to a **store remodel or space expansion**.
-
-### **Step 3 – Model Fitting**
-- Fit both **linear** and **seasonal** functions on the full dataset.  
-- Split the data into **pre-** and **post-break** segments to capture distinct growth patterns.
-
-### **Step 4 – Forecast Generation**
-- Train forecasting models (linear regression and seasonal decomposition) using data from **2020-Feb to 2024-Dec**.  
-- Generate **iterative multi-period forecasts** through **December 2026**.
-
-### **Step 5 – Statistical Sales Summary**
-- Compute **monthly and yearly sales growth rates**.
-- Estimate **predicted growth for 2025–2026**.
-- Compare **historical vs. forecasted** December and annual sales.
-- Summarize additional insights such as average monthly sales and sales volatility.
+- Sales growth accelerated noticeably after **February 2020**, suggesting a possible **remodeling or capacity increase inferred from the data**.  
+- Forecasts indicate continued moderate growth through **2026**, with strong **December seasonality** each year.  
+- Post-2020 model results provide a more accurate view of future performance than models trained on the full pre-2020 dataset.  
+- The approach can be generalized to other retail datasets.
 
 ---
 
@@ -70,12 +51,31 @@ Shows month-to-month variability in sales, highlighting stable and high-fluctuat
 
 ---
 
-## 🧠 Insights and Conclusions
+## ⚙️ Workflow Summary
 
-- Sales growth accelerated noticeably after **February 2020**, suggesting a possible **remodeling or capacity increase inferred from the data**.  
-- Forecasts indicate continued moderate growth through **2026**, with strong **December seasonality** each year.  
-- Post-2020 model results provide a more accurate view of future performance than models trained on the full pre-2020 dataset.  
-- The approach can be generalized to other retail datasets.
+### **Step 1 – Load Raw Sales Data**
+- Load the CSV file containing historical monthly sales.
+- Review dataset structure and basic statistics.
+- Visualize the raw sales trend over time.
+
+### **Step 2 – Data Pre-Processing**
+- Remove months with zero or outlier sales values.  
+- Define **September 2016** as the starting point of the series, assuming **December** represents the annual peak month.
+- Identify a clear structural jump in sales around **February 2020**, likely corresponding to a **store remodel or space expansion**.
+
+### **Step 3 – Model Fitting**
+- Fit both **linear** and **seasonal** functions on the full dataset.  
+- Split the data into **pre-** and **post-break** segments to capture distinct growth patterns.
+
+### **Step 4 – Forecast Generation**
+- Train forecasting models (linear regression and seasonal decomposition) using data from **2020-Feb to 2024-Dec**.  
+- Generate **iterative multi-period forecasts** through **December 2026**.
+
+### **Step 5 – Statistical Sales Summary**
+- Compute **monthly and yearly sales growth rates**.
+- Estimate **predicted growth for 2025–2026**.
+- Compare **historical vs. forecasted** December and annual sales.
+- Summarize additional insights such as average monthly sales and sales volatility.
 
 ---
 
